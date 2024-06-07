@@ -14,7 +14,8 @@ dt-launchfile-init
 
 # launching app
 dt-exec echo "This is an empty launch script. Update it to launch your application."
-
+dt-exec rosrun wheels_package wheels_driver_node.py
+dt-exec rosrun vehicle_detection vehicle_detection_node.py
 
 # ----------------------------------------------------------------------------
 # YOUR CODE ABOVE THIS LINE
